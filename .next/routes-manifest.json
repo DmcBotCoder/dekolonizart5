@@ -1,0 +1,277 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/en(?:/)?$"
+    },
+    {
+      "source": "/en/:path*",
+      "destination": "/:path*",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/en(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/de/home-deutsch",
+      "destination": "/de",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/home-deutsch(?:/)?$"
+    },
+    {
+      "source": "/fr/home-francais",
+      "destination": "/fr",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/home-francais(?:/)?$"
+    },
+    {
+      "source": "/de/ueber",
+      "destination": "/de/about",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/ueber(?:/)?$"
+    },
+    {
+      "source": "/fr/elementor-3714",
+      "destination": "/fr/about",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/elementor-3714(?:/)?$"
+    },
+    {
+      "source": "/de/geschichte",
+      "destination": "/de/history",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/geschichte(?:/)?$"
+    },
+    {
+      "source": "/fr/histoire",
+      "destination": "/fr/history",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/histoire(?:/)?$"
+    },
+    {
+      "source": "/de/das-team",
+      "destination": "/de/the-team",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/das-team(?:/)?$"
+    },
+    {
+      "source": "/fr/lequipe",
+      "destination": "/fr/the-team",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/lequipe(?:/)?$"
+    },
+    {
+      "source": "/de/dienstleistungen",
+      "destination": "/de/services",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/dienstleistungen(?:/)?$"
+    },
+    {
+      "source": "/fr/nos-services",
+      "destination": "/fr/services",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/nos-services(?:/)?$"
+    },
+    {
+      "source": "/de/theater-2",
+      "destination": "/de/theater",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/theater-2(?:/)?$"
+    },
+    {
+      "source": "/fr/theatre-2",
+      "destination": "/fr/theater",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/theatre-2(?:/)?$"
+    },
+    {
+      "source": "/de/artistic-3",
+      "destination": "/de/artistic",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/artistic-3(?:/)?$"
+    },
+    {
+      "source": "/fr/artistic-2",
+      "destination": "/fr/artistic",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/artistic-2(?:/)?$"
+    },
+    {
+      "source": "/de/movement-dance-3",
+      "destination": "/de/movement-dance",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/movement-dance-3(?:/)?$"
+    },
+    {
+      "source": "/fr/movement-dance-2",
+      "destination": "/fr/movement-dance",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/movement-dance-2(?:/)?$"
+    },
+    {
+      "source": "/de/kontakt",
+      "destination": "/de/contact",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/de/kontakt(?:/)?$"
+    },
+    {
+      "source": "/fr/contact-2",
+      "destination": "/fr/contact",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fr/contact-2(?:/)?$"
+    },
+    {
+      "source": "/douala-manga-bell-synopsis",
+      "destination": "/events/douala-manga-bell",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/douala-manga-bell-synopsis(?:/)?$"
+    },
+    {
+      "source": "/douala-manga-bell",
+      "destination": "/events/douala-manga-bell",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/douala-manga-bell(?:/)?$"
+    },
+    {
+      "source": "/the-tragedy-of-melilla",
+      "destination": "/events/the-tragedy-of-melilla",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/the-tragedy-of-melilla(?:/)?$"
+    },
+    {
+      "source": "/tam-tam",
+      "destination": "/events/tam-tam",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/tam-tam(?:/)?$"
+    },
+    {
+      "source": "/event-actors-page",
+      "destination": "/artists",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/event-actors-page(?:/)?$"
+    },
+    {
+      "source": "/program",
+      "destination": "/theater",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/program(?:/)?$"
+    },
+    {
+      "source": "/performances",
+      "destination": "/theater",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/performances(?:/)?$"
+    },
+    {
+      "source": "/workshops",
+      "destination": "/artistic",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/workshops(?:/)?$"
+    },
+    {
+      "source": "/fags",
+      "destination": "/services",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/fags(?:/)?$"
+    },
+    {
+      "source": "/leichte-sprache",
+      "destination": "/de/easy-read",
+      "statusCode": 308,
+      "regex": "^(?!/_next)/leichte-sprache(?:/)?$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/[locale]/[[...rest]]",
+      "regex": "^/([^/]+?)(?:/(.+?))?(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale",
+        "nxtPrest": "nxtPrest"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)(?:/(?<nxtPrest>.+?))?(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/community",
+      "regex": "^/api/community(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/community(?:/)?$"
+    },
+    {
+      "page": "/api/newsletter",
+      "regex": "^/api/newsletter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/newsletter(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

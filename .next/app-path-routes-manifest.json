@@ -1,0 +1,10 @@
+{
+  "/[locale]/[[...rest]]/page": "/[locale]/[[...rest]]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/community/route": "/api/community",
+  "/api/newsletter/route": "/api/newsletter",
+  "/page": "/",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

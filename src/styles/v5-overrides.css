@@ -1,0 +1,153 @@
+@media (max-width: 640px) {
+  .v5-support-grid,
+  .v5-community-grid {
+    grid-template-columns: 1fr;
+    padding: 4rem 0 5rem;
+  }
+
+  .v5-support-note {
+    padding-bottom: 5rem;
+  }
+
+  .v5-events-provider {
+    padding: 3rem 0 5rem;
+  }
+
+  .v5-vibetix {
+    width: calc(100% + 2rem);
+    margin-inline: -1rem;
+  }
+}
+
+.v5-reference-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.v5-reference-list article {
+  border-top: 1px solid var(--line);
+  padding-top: 1.2rem;
+}
+
+.v5-reference-list img {
+  display: block;
+  width: min(12rem, 100%);
+  height: 4rem;
+  object-fit: contain;
+  object-position: left center;
+  margin-bottom: 1rem;
+}
+
+.v5-reference-list h3 {
+  margin: 0 0 .5rem;
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.v5-reference-list p {
+  color: var(--rose);
+}
+
+.v5-community-intro {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: clamp(4rem, 9vw, 9rem) 0 0;
+}
+
+.v5-community-intro h2 {
+  max-width: 14ch;
+  margin: 0 0 1rem;
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  font-weight: 400;
+  line-height: .84;
+}
+
+.v5-community-intro p {
+  max-width: 48rem;
+  color: var(--rose);
+  font-size: 1.1rem;
+}
+
+.v5-community-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.v5-community-form > label,
+.v5-community-form legend {
+  display: grid;
+  gap: .4rem;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.v5-community-form input:not([type='checkbox']),
+.v5-community-form select,
+.v5-community-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  padding: .7rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+.v5-community-form fieldset {
+  display: grid;
+  gap: .5rem;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.v5-community-check,
+.v5-community-consent {
+  display: flex!important;
+  grid-template-columns: auto 1fr;
+  align-items: flex-start;
+  gap: .5rem!important;
+  font-size: .78rem!important;
+  font-weight: 400!important;
+}
+
+.v5-community-check input,
+.v5-community-consent input {
+  margin-top: .25rem;
+}
+
+.v5-community-form > p {
+  margin: 0;
+}
+
+.v5-community-required,
+.v5-community-optional {
+  color: var(--rose);
+  font-size: .72rem;
+  font-weight: 400;
+}
+
+.v5-community-success {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.v5-community-success p,
+.v5-community-error {
+  margin: 0;
+}
+
+.v5-community-error {
+  color: #ff9a7c;
+}
+
+.v5-community-honeypot {
+  position: absolute!important;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
